@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+}
+
+header{
+    min-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(47, 154, 255, 0.1);
+}
+
+.header-titel {
+    color: 	#4285F4;
+    margin: 1rem;
+    font-size: 6rem;
+}
+
+.add-cards {
+    border: 2px solid rgba(0, 0, 255, 0.5);
+    color: #333;
+    padding: 1rem;
+    background: none;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.add-cards:hover {
+    background: blue;
+    color: white;
+}
+
+.del-cards {
+    border: 2px solid rgba(0, 0, 255, 0.5);
+    color: #333;
+    padding: 1rem;
+    background: none;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.flash-card-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.6rem;
+}
+
+.del-cards:hover {
+    background: blue;
+    color: white;
+}
+
+.empty-cards {
+    margin: 2rem;
+    margin-top: 10rem;
+    color: slategrey;
+}
+
+.flash-crads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-body {
+    min-width: 22rem;
+    max-width: 22rem;
+    min-height: 15rem;
+    background-color: #146EB4;
+    border: none;
+    border-radius: 10px 30px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.create-flash {
+    display: none;
+}
+
+.create-flash-show {
+    background: rgba(47, 154, 255, 0.2);
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 1rem;
+}
+
+.create-flash-title {
+    color: #333;
+    margin: 1rem;
+}
+
+.question-input{
+    margin: 1rem;
+    padding: .5rem;
+    font-size: 1.6rem;
+    border: none;
+    background: none;
+    border-bottom: 1px solid blue;
+}
+
+.answer-input{
+    margin: 1rem;
+    padding: .5rem;
+    font-size: 1.6rem;
+    border: none;
+    background: none;
+    border-bottom: 1px solid blue;
+}
+
+.create-flash-buttons {
+    display: flex;
+    justify-content: space-between;
+    /* background: red; */
+    min-width: 15rem;
+}
+
+.save-flash-card{
+    padding: .5rem;
+    margin: 1rem;
+    background: none;
+    border: 1px solid blue;
+    color: #333;
+    border-radius: 5px;
+}
+
+.save-flash-card:hover {
+    background: blue;
+    color: white;
+}
+
+.close-create-flash{
+    padding: .5rem;
+    margin: 1rem;
+    background: none;
+    border: 1px solid blue;
+    color: #333;
+    border-radius: 5px;
+}
+
+.close-create-flash:hover {
+    background: blue;
+    color: white;
+}
+
+.create-flash-show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-question {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.hide-answer {
+    display: none;
+}
+
+.show-answer {
+    display: flex;
+    color: #333;
+}
